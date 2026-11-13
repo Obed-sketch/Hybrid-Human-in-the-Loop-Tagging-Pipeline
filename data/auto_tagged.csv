@@ -1,0 +1,4 @@
+text,predicted_label,confidence
+"Got an email saying my mailbox is full and I need to sign in again to keep receiving mail, is that real?",phishing,0.7239
+A spreadsheet with staff salaries was sent to everyone in the company by mistake.,data_leak,0.6633
+The website for the supplier portal looks slightly different today and asks for my password twice.,benign,0.7301

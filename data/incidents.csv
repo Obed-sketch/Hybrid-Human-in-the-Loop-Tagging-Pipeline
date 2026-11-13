@@ -1,0 +1,301 @@
+text,label
+An employee wants to know the process for requesting parental leave coverage for their mailbox.,benign
+An employee removed the asset tag and took a monitor home without a property pass.,policy_violation
+The air conditioning in the server room is running slightly warm and facilities are checking it as routine maintenance.,benign
+A user disabled MFA on their account after switching phones instead of re-registering.,policy_violation
+IT notice: we are migrating mailboxes tonight. Log in to the new portal with your usual username and password to avoid interruption.,phishing
+An attachment labeled as a shipping label installed a screen-locking ransomware variant.,malware
+Impossible travel alert: the same account logged in from Chicago and then from overseas twenty minutes later.,intrusion
+A staff member plugged an unauthorized wireless router into the office network to improve coverage.,policy_violation
+A new team member asks where the IT service catalog is published.,benign
+A user's browser session tokens were stolen by infostealer malware found on their PC.,malware
+The mail filter quarantined a zip file whose contents match a known spyware family.,malware
+An attacker used stolen VPN credentials to access the network during a holiday weekend.,intrusion
+A perimeter scan found an exposed database port that was not in the asset inventory.,intrusion
+An employee used a personal email account to send themselves work documents to finish at home.,policy_violation
+An employee's keyboard types duplicate characters and needs replacement.,benign
+An automated reminder went out that several staff have training due at the end of the month.,benign
+A user's laptop is beaconing to a known command-and-control domain every five minutes.,malware
+An employee's monitor flickers when the docking station is connected after the latest update.,benign
+Virus definitions caught a polymorphic infector spreading through the design team's shared folder.,malware
+Someone connected a game console to the office network in the break room using a wall port.,policy_violation
+A fake antivirus program is popping up on a user's screen asking for credit card details to remove infections.,malware
+An analytics export with customer email addresses and order histories was posted to a public file-sharing link.,data_leak
+Several employees got near-identical emails asking them to confirm direct deposit details on an external form.,phishing
+"The SIEM correlated a phishing click, a credential prompt, and then a first-time login from an anonymizing proxy.",intrusion
+A spoofed message from the CEO asked the finance assistant to buy gift cards urgently and keep it confidential.,phishing
+A malicious script in a scheduled task is re-downloading a payload every hour.,malware
+An email spoofing a cloud storage provider warns that files will be deleted unless the user signs in.,phishing
+A message claiming to be from the tax authority threatens penalties unless the recipient logs in through the link.,phishing
+A user is requesting access to the shared marketing drive for a project approved by their manager.,benign
+An employee's home PC used for VPN access is infected with a remote administration tool.,malware
+A partner connection was used to reach systems outside the agreed network segment.,intrusion
+Phishing campaign detected: messages claim a shared document is waiting and link to a credential theft page.,phishing
+Someone installed a torrent client on a work PC to download training videos.,policy_violation
+"A user got an email saying their streaming account payment failed, but the sender domain belongs to a marketing firm in another country and the link asks for corporate credentials.",phishing
+An employee asked whether an email about a court summons with a login link is genuine.,phishing
+A successful login to the firewall admin interface came from an IP in a country where we have no staff.,intrusion
+An attacker exploited an unpatched web server vulnerability and uploaded a webshell.,intrusion
+"An employee tried to plug their electric vehicle charger into the data center UPS circuit, against facilities policy.",policy_violation
+The threat hunt found a malicious service installed with a misspelled name imitating a Windows service.,malware
+The EDR blocked an attempt to run Mimikatz on a domain controller.,intrusion
+A user wants to schedule the annual workstation refresh for their department.,benign
+A public-facing server was defaced after its content management system was compromised.,intrusion
+A call recording containing payment card numbers was stored in an unprotected folder accessible to all agents.,data_leak
+A help desk ticket asks for instructions to set up email on a personal phone under the BYOD program.,benign
+An employee set up an unauthorized mail server on a workstation to bypass sending limits.,policy_violation
+A newly registered domain is hosting a copy of our VPN portal to intercept credentials.,intrusion
+A technician used admin rights to browse a celebrity patient's record out of curiosity.,policy_violation
+A web application firewall blocked SQL injection attempts that were followed by a successful file upload.,intrusion
+A dormant vendor account was re-enabled and used to download configuration backups.,intrusion
+The WAF logs show an attacker probing for a path traversal flaw in the customer portal.,intrusion
+A staff member installed browser password sync to a personal account on their work laptop.,policy_violation
+A legacy modem line still connected to a server accepted an inbound call with weak credentials.,intrusion
+Your package could not be delivered. Confirm your address and card details here to reschedule the delivery.,phishing
+A user needs the spreadsheet application reinstalled after it began crashing on open.,benign
+The secure email gateway flagged a message with a display name matching our CIO but an external sender address.,phishing
+The help desk received reports of emails claiming a bonus payment requires immediate account verification.,phishing
+An old database snapshot was found on an employee's personal website used for a side project.,data_leak
+A mobile app update briefly logged user session tokens to a third-party analytics service.,data_leak
+A new hire needs their laptop imaged and accounts set up before their start date on Monday.,benign
+Threat hunters found a new local admin account created outside the provisioning process.,intrusion
+An employee was caught sleeping in the server room after badging in with another person's card.,policy_violation
+A user installed a free PDF converter that bundled adware and a browser hijacker.,malware
+An external IP is password spraying the Outlook web portal with common seasonal passwords.,intrusion
+A team is asking for a larger mailbox quota because project archives filled their storage.,benign
+Personal USB drives are being used to move files in the design department despite the removable media policy.,policy_violation
+Antivirus alert: a backdoor was dropped by a fake software update installer.,malware
+A user disabled automatic screen locking because it interrupted their monitoring dashboard.,policy_violation
+A service account was used interactively at 3 a.m. from an IP that has never appeared before.,intrusion
+The sandbox analysis shows the sample steals saved passwords and uploads them to a file host.,malware
+An employee printed confidential reports and left them on the shared printer overnight.,policy_violation
+The proxy shows a server initiating connections to an external IP on a nonstandard port at regular intervals.,intrusion
+Your mailbox is almost full and incoming mail will be rejected. Click here to sign in and increase your storage now.,phishing
+Kerberoasting activity was detected: unusual service ticket requests from a single workstation.,intrusion
+A worker used a personal file-sharing account to exchange large drawings with a subcontractor.,policy_violation
+A fake Chrome update page tricked a user into installing a trojan downloader.,malware
+"A test performed by red teamers left a persistence mechanism in a startup folder on a finance PC, and it was only found a week later by monitoring.",intrusion
+A malicious browser extension is redirecting searches and injecting ads into banking sites.,malware
+An HR spreadsheet with passport numbers was attached to a meeting invite sent to the wrong attendees.,data_leak
+A manager approved a software install request for the new diagramming tool for their team.,benign
+A user requests a password manager license as part of the standard onboarding bundle.,benign
+An employee brought in a personal NAS device and connected it to the department network.,policy_violation
+A user reported a pop-up claiming their computer is infected and urging them to call a support number.,phishing
+A misconfigured Jenkins server exposed build logs containing secrets and internal URLs to the internet.,data_leak
+A facilities ticket reports a flickering light in the hallway near the elevators.,benign
+A trojanized copy of a popular compression tool was found on a contractor laptop.,malware
+Payroll direct deposit information for dozens of employees was sent to an incorrect distribution list.,data_leak
+A user reported an email from 'IT Support' with a link to reset their password that goes to a newly registered domain.,phishing
+The SOC is investigating a host that began communicating with a known botnet controller after years of inactivity.,intrusion
+The NDR appliance correlated traffic from two hosts to a known malware command channel.,malware
+A user wants to know how to enroll their new phone in the mobile management app.,benign
+A phishing email bypassed the filter by hiding the malicious link inside a PDF attachment.,phishing
+A staff member nearly sent a wire after a business email compromise message changed the vendor's bank details.,phishing
+A user routinely leaves their workstation unlocked in a public-facing reception area.,policy_violation
+A trainer reused the production database password in a classroom demo environment.,policy_violation
+A remote employee needs the shipping address to return a defective laptop for repair.,benign
+The SOC identified a phishing kit hosted on a compromised small business website targeting our staff.,phishing
+Malwarebytes flagged a malicious PowerShell script running from the temp folder.,malware
+"A website bug displayed session data of the previous visitor, including names and order details.",data_leak
+The SOC confirmed a spyware infection on a phone used for executive email.,malware
+A mailing house printed statements with one customer's balance visible through another customer's envelope window.,data_leak
+The printer on the third floor is showing a paper jam error again.,benign
+A cloud storage link to litigation documents was indexed by a search engine.,data_leak
+A student worker needs their account extended for the summer term with supervisor approval.,benign
+A contractor's compromised laptop was used as a bridge into the engineering network.,intrusion
+A director received a whaling email requesting a confidential wire transfer to a new account.,phishing
+A misaddressed email disclosed one client's contract terms to a competing client.,data_leak
+A photo of a whiteboard showing network diagrams and IP ranges was shared in a public channel.,data_leak
+A user installed unauthorized remote access software on their work laptop without IT approval.,policy_violation
+Action required: your direct deposit information could not be verified. Update your payroll details through this secure link to avoid a missed payment.,phishing
+A data warehouse query result with unmasked credit card numbers was emailed to a broad internal group.,data_leak
+The mail gateway stripped a malicious attachment containing an Emotet payload.,malware
+Unusual SMB traffic suggests an intruder is enumerating file shares from a foothold host.,intrusion
+The NAC system quarantined a rogue access point plugged into a conference room port.,intrusion
+An attacker impersonated a recruiter on LinkedIn and sent a malicious offer letter to a candidate.,phishing
+A user asked the service desk to confirm whether a planned outage notice for Saturday is legitimate routine maintenance.,benign
+Database credentials were found written in a publicly accessible wiki page.,data_leak
+A cloud administrator key was used from an unrecognized location to spin up mining instances.,intrusion
+Smishing messages are targeting warehouse staff with fake shift-schedule login links.,phishing
+"Dear employee, your password expires today. Click here to keep your current password and avoid losing access to your account.",phishing
+A spear phishing message targeted the CFO with a fake invoice and a request to update bank details.,phishing
+A staff member ignored the clean desk policy and left client contracts visible during an office tour.,policy_violation
+"A former employee downloaded the client list to a personal drive on their last day, and the transfer was confirmed in logs.",data_leak
+The cloud audit log shows console logins from an IP belonging to a bulletproof hosting provider.,intrusion
+The proxy logs show a workstation downloading a Cobalt Strike beacon payload.,malware
+The sandbox detonated a downloaded executable and observed it dropping a credential stealer.,malware
+"A nurse used a coworker's login to chart notes because her own account was locked, violating access policy.",policy_violation
+A user bypassed the web filter using a personal hotspot to reach a blocked streaming site.,policy_violation
+A misconfigured reporting tool exposed salary data to all employees for several hours.,data_leak
+An email thread containing merger plans was forwarded to a personal account and later appeared in a news tip.,data_leak
+The office Wi-Fi is slow in the east wing during peak hours; users are asking if it is a known issue.,benign
+An employee emailed their login credentials to a shared team mailbox for coverage during leave.,policy_violation
+"Someone propped open a secure area door for a delivery driver without an escort, against access policy.",policy_violation
+Failed RDP logins from dozens of countries are hitting the jump server in a coordinated pattern.,intrusion
+A user's laptop fan is noisy and they ask whether it can be inspected during the next maintenance window.,benign
+A user attempted to install unapproved AI tools that upload documents to an external service.,policy_violation
+An employee shared their network password with a contractor so the contractor could finish a task.,policy_violation
+A workstation is sending DNS queries to a tunneling domain consistent with malware C2.,malware
+"An intern posted a screenshot of the internal dashboard, including revenue figures, on social media.",data_leak
+The badge system and VPN logs disagree: an account connected remotely while its owner badged in on site.,intrusion
+An email pretending to be from HR announced a salary review and asked staff to log in to view the letter.,phishing
+An email impersonating a benefits provider asks employees to re-enroll through an unfamiliar portal.,phishing
+A privileged account logged in from a Tor exit node outside any approved travel.,intrusion
+You have received a secure document. Sign in with your email credentials to view the shared file before it expires.,phishing
+A phishing attempt used a real compromised vendor mailbox to send malicious payment instructions.,phishing
+A staff member uses the same password for work systems and personal accounts and mentioned it in training feedback.,policy_violation
+"A new contractor needs temporary access to the ticketing system for a two-week engagement, with sponsor approval.",benign
+The antivirus on the reception PC has been tampered with and a virus signature update fails.,malware
+A user reports the shared drive is at 95 percent capacity and asks when the archive cleanup is scheduled.,benign
+The EDR console reports a keylogger process injected into the browser on a sales laptop.,malware
+A departing contractor retained access to a shared drive containing bid pricing for two weeks after their contract ended.,data_leak
+A batch of printed checks was left in an unlocked mailroom and several are unaccounted for.,data_leak
+A support engineer pasted customer chat transcripts into a public code snippet site while asking for help.,data_leak
+A spoofed message from a university partner asked researchers to log in to renew library access.,phishing
+Suspicious creation of mailbox forwarding rules followed a successful account takeover.,intrusion
+A password reset email exposed a plaintext password in the message body due to a template bug.,data_leak
+Lateral movement is suspected: one compromised workstation authenticated to twelve servers in an hour.,intrusion
+"The CRM export logs show a user downloaded records for 40,000 contacts in the middle of the night before resigning.",data_leak
+An employee took photos inside the secure lab and posted them on social media without approval.,policy_violation
+An intrusion set off a canary token planted in a fake credentials file on a file server.,intrusion
+A user wants to reset their voicemail PIN after forgetting it.,benign
+An encryption key for the backups was stored in the same public repository as the encrypted data.,data_leak
+A botnet infection was traced to a compromised IoT camera in the warehouse.,malware
+A supervisor asked an analyst to share their screen while logged in as an administrator for a routine task.,policy_violation
+An employee failed to complete mandatory security awareness training three months past the deadline.,policy_violation
+A rootkit is hiding processes on the print server; scans come back clean but traffic is suspicious.,malware
+A cloud document sharing link with edit access was sent to an external mailing list by mistake.,data_leak
+Congratulations! You have been selected to receive a $500 gift card. Log in with your work account to claim your reward.,phishing
+The honeypot recorded an attacker attempting to exploit the print spooler vulnerability.,intrusion
+A manager requests a report of their team's completed training for the quarterly review.,benign
+"An employee's personal cloud backup automatically included their work documents folder, including confidential plans.",data_leak
+A user forwarded a suspicious email: it spoofed a supplier and asked to change payment account information.,phishing
+The firewall recorded a successful SSH brute force against a forgotten test server.,intrusion
+A user's smart card certificate expired and they need a routine renewal appointment.,benign
+A user locked themselves out of their account after mistyping their password several times and needs a reset.,benign
+A user stored work files in a personal cloud drive because the corporate drive was full.,policy_violation
+Crypto-mining malware is consuming 100 percent CPU on three engineering workstations.,malware
+A vendor's compromised account was used to download invoices containing bank details of many customers.,data_leak
+A researcher published a dataset that still contained names and addresses believed to have been anonymized.,data_leak
+A user reported that the office coffee machine on the second floor is out of order.,benign
+The SIEM shows 400 failed login attempts against the VPN gateway from a single foreign IP in ten minutes.,intrusion
+Someone received a text message claiming to be from the bank asking to confirm a transaction via a link.,phishing
+An API endpoint returned other users' private profile data when the ID parameter was changed.,data_leak
+A support ticket system exposed attachments from other customers due to a broken access check.,data_leak
+The VPN keeps disconnecting every hour for a remote employee on a home connection.,benign
+A fake two-factor authentication prompt was shown after a user entered credentials on a phishing page.,phishing
+A web shell was discovered in the uploads directory of the marketing website.,intrusion
+An employee lent their access badge to a colleague who forgot theirs.,policy_violation
+A remote access trojan was identified communicating with an external IP over port 4444.,malware
+The help desk received a question about how to book the shared training room calendar.,benign
+The gateway quarantined a campaign using COVID test result notifications as the lure.,phishing
+Anomalous DNS queries suggest data is being tunneled out of a restricted server segment.,intrusion
+Users are reporting a phishing email that mimics our payroll portal with a lookalike domain.,phishing
+An unrecognized process on a server was listening on a high port and accepting external connections.,intrusion
+The endpoint agent detected ransomware precursors: shadow copies being deleted on a workstation.,malware
+A user's docking station Ethernet port stopped working; they are on Wi-Fi in the meantime.,benign
+A lost laptop that was not encrypted contained records for several thousand patients.,data_leak
+Port scanning activity was detected against our public IP range from a hosting provider network.,intrusion
+A compromised website is serving a drive-by download kit to visitors from our network.,malware
+A user ignored repeated warnings and kept using an end-of-life operating system on a lab machine.,policy_violation
+Endpoint protection detected ransomware encrypting files on a file server share.,malware
+A team asks whether the video conferencing license covers external guests for next week's workshop.,benign
+A team lead instructed staff to share MFA tokens through a messaging app for on-call convenience.,policy_violation
+"Repeated MFA push notifications bombarded an executive until one was approved, followed by a login from a new device.",intrusion
+A user reports a broken chair wheel in the operations area and asks facilities for a swap.,benign
+A researcher connected an unmanaged instrument PC to the network without registering it with IT.,policy_violation
+A user cannot find the template library after the intranet redesign and asks for the new link.,benign
+An employee asks how to submit expenses for the new travel system after the migration.,benign
+A malicious Office add-in is exfiltrating address book data to an external server.,malware
+A marketing vendor was given a full customer database extract instead of the limited sample agreed in the contract.,data_leak
+A malicious DLL was sideloaded by a legitimate application on a developer machine.,malware
+A staff member kept former employee accounts active for weeks after offboarding to avoid paperwork.,policy_violation
+An employee was found tailgating into the data center behind an authorized engineer.,policy_violation
+A password reset request came in for a user who forgot their credentials after vacation.,benign
+"A shipping label printer produced labels with customer phone numbers visible, and extras were discarded in public trash.",data_leak
+A printer in a public area was reprinting confidential board documents due to a shared queue misconfiguration.,data_leak
+The IDS alerted on an exploit attempt against the VPN appliance matching a recent CVE.,intrusion
+An intrusion attempt exploited default credentials on a network printer to reach the LAN.,intrusion
+A remote worker's laptop battery is swelling and they need a replacement shipped.,benign
+A vishing caller pretended to be the service desk and asked an employee to read out their MFA code.,phishing
+A department is requesting quotes for additional monitors for new workstations.,benign
+A backup tape containing unencrypted financial records is missing from the offsite storage inventory.,data_leak
+A team wants a distribution list created for the spring product launch group.,benign
+A user needs help connecting to the projector for a client presentation this afternoon.,benign
+A shared drive folder with employee disciplinary records was readable by the entire company for a month.,data_leak
+An employee reported that the time clock app logged them out and they cannot clock back in.,benign
+"An employee forwarded internal-only announcements to a public forum, which is against communications policy.",policy_violation
+An attacker enumerated valid usernames through the password reset page before starting a spray attack.,intrusion
+An internal presentation containing unreleased product designs was found on a public slides website.,data_leak
+An infected email attachment executed and began scanning the internal network.,malware
+Attackers are sending fake voicemail notifications that link to credential harvesting pages.,phishing
+An unknown device joined the corporate network and began scanning internal subnets.,intrusion
+A credential harvesting page was linked from an email claiming the mailbox storage is full.,phishing
+A fake password expiration notice led three employees to a cloned intranet login page.,phishing
+A department keeps a shared spreadsheet of application passwords in clear text on a shared drive.,policy_violation
+A phishing page is using our company logo and a URL that swaps two letters in our domain name.,phishing
+"Security alert: a new device signed in to your account. If this was not you, reset your password immediately using this link.",phishing
+A phishing email with a QR code directs staff to a fake Microsoft 365 sign-in page.,phishing
+An attacker guessed an employee's reused password and accessed their webmail from abroad.,intrusion
+A user asked how to change their display name in the company directory.,benign
+"Hi, this is the CEO. I need you to purchase gift cards for a client event right away. Please keep this between us and send me the codes when done.",phishing
+An attacker chained a misconfigured bucket permission to reach the internal metadata service in our cloud test.,intrusion
+Threat intel matched a hash on an executive laptop to a known banking trojan family.,malware
+Suspicious encoded PowerShell commands are executing at logon on multiple machines.,malware
+An unencrypted USB stick containing audit evidence was lost during travel.,data_leak
+A university mailing list received an attachment with students' grades and ID numbers meant for faculty only.,data_leak
+A user's badge stopped working at the main entrance after the access system update; facilities confirmed no security concern.,benign
+A worker was observed writing their password on a sticky note attached to the monitor.,policy_violation
+A malicious kernel driver was loaded on a server before secure boot was re-enabled.,malware
+A user granted a vendor remote access without opening the required change ticket.,policy_violation
+Antivirus telemetry shows the same malware hash appearing on five newly imaged machines from one USB source.,malware
+A user downloads movies over the guest Wi-Fi using a work laptop during lunch every day.,policy_violation
+Antivirus quarantined a trojan on workstation WS-1042 after the user opened an invoice attachment.,malware
+A macro virus was found in a spreadsheet downloaded from a file-sharing site.,malware
+A user clicked a link in an email about a package delivery and landed on a fake webmail page.,phishing
+A test environment refreshed from production data was left reachable from the internet without authentication.,data_leak
+Unusual outbound traffic from the backup server suggests an intruder staged data for theft after breaking in.,intrusion
+An employee received an email impersonating IT asking them to verify their password on a fake login page.,phishing
+"A configuration error published the internal staff directory, including personal phone numbers, on the public website.",data_leak
+An employee used a colleague's logged-in session to approve their own purchase request.,policy_violation
+An employee uploaded a document with unredacted legal case details to a public AI summarization website.,data_leak
+A decommissioned server was sold without its drives being wiped and customer data was later reported found on it.,data_leak
+A user reported their files turned into locked archives overnight and a timer window is counting down.,malware
+A developer committed code to a public repository from a work machine without the required review.,policy_violation
+Source code including hard-coded production API keys was pushed to a public GitHub repository.,data_leak
+An attacker is exploiting an internet-facing appliance that missed the last two patch cycles.,intrusion
+An employee is asking where to find the form to request ergonomic equipment.,benign
+A smart TV in the lobby was signed into an executive's account and displayed private notifications to visitors.,data_leak
+A staff member auto-forwards all work email to a personal account for convenience.,policy_violation
+Security tools flagged a fileless malware attack using only built-in system utilities.,malware
+A user entered their email password into a form shared through a chat message from an unknown contact.,phishing
+Attackers sent a fake calendar invite containing a link to a credential phishing kit.,phishing
+The perimeter firewall saw exploitation traffic against the mail server matching a public exploit.,intrusion
+"A user copied the customer contact list to a spreadsheet on their desktop for convenience, outside the CRM.",policy_violation
+A storage bucket containing database backups was found publicly readable on the internet.,data_leak
+A public demo environment was seeded with real customer records instead of fictional data.,data_leak
+An employee noticed their name is misspelled in the HR portal and wants it corrected.,benign
+A Kubernetes cluster in the lab was compromised through an exposed dashboard without authentication.,intrusion
+A fax containing medical information was sent to a wrong number at a local business.,data_leak
+The conference room display is not detecting laptops over HDMI since yesterday.,benign
+A manager asked the team to use a group account instead of individual accounts for a shared application.,policy_violation
+Ransomware note appeared on a workstation desktop demanding payment in Bitcoin.,malware
+Scheduled maintenance: the email servers will be rebooted this Sunday between 2 and 4 a.m.,benign
+A staff member disabled the endpoint antivirus because it slowed down their video rendering.,policy_violation
+Files on the shared drive are being renamed with a strange extension and a ransom note was left behind.,malware
+A user connected their personal laptop to the secure network jack in a meeting room.,policy_violation
+The help desk got a call from a user who entered their credentials into a site linked from a shipping notification email.,phishing
+A user is transferring to another department and asks how their files and access will be moved.,benign
+The firewall blocked outbound traffic from a workstation to a known malware distribution domain.,malware
+An employee accidentally emailed a spreadsheet containing customer Social Security numbers to the wrong external recipient.,data_leak
+EDR isolated a host after detecting LSASS memory dumping consistent with credential theft malware.,malware
+Multiple endpoints report the same malicious scheduled task created within the same hour.,malware
+A staff member received an invoice email whose reply-to address differs from the vendor's real domain.,phishing
+An employee is requesting a headset replacement because the microphone stopped working.,benign
+A worm is exploiting an unpatched service to move between servers in the DMZ.,malware
+An employee synced a folder of client contracts to a personal tablet that was later stolen from a car.,data_leak
+Several PCs in the finance department show signs of a worm spreading over SMB shares.,malware
+An employee shared their building access PIN with a new hire before the hire's badge was issued.,policy_violation
+Phishing emails are imitating a popular e-signature service to harvest Office credentials.,phishing
+A USB drive inserted into a lab PC contained an autorun worm.,malware
+URGENT: Unusual sign-in activity was detected on your account. Verify your identity now or your account will be suspended within 24 hours.,phishing
