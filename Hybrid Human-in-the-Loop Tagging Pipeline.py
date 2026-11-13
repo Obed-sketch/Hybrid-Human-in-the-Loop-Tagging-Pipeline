@@ -50,8 +50,11 @@ class SecurityDataset(torch.utils.data.Dataset):
 train_dataset = SecurityDataset(train_encodings, train_labels)
 
 # Fine-tune BERT
+# REPAIR: the closing parenthesis of this from_pretrained(...) call was
+# missing, which made the whole file a SyntaxError ("'(' was never closed").
 model = BertForSequenceClassification.from_pretrained(
     "bert-base-uncased", num_labels=len(label_map)
+)
 training_args = TrainingArguments(
     output_dir="./results",
     num_train_epochs=3,
@@ -102,40 +105,43 @@ def validate():
 
   # Frontend (React Component):
   # JAVASCRIPT
-  import React, { useState } from 'react';
+  # REPAIR: this React component was pasted into the Python file uncommented,
+  # which was the second SyntaxError in the file. It is kept below as
+  # commented documentation -- it belongs in a separate frontend .jsx file.
+#   import React, { useState } from 'react';
 
-function TaggingInterface() {
-  const [text, setText] = useState("");
-  const [autoTag, setAutoTag] = useState("");
-  const [validatedTag, setValidatedTag] = useState("");
+# function TaggingInterface() {
+#   const [text, setText] = useState("");
+#   const [autoTag, setAutoTag] = useState("");
+#   const [validatedTag, setValidatedTag] = useState("");
 
-  const handlePredict = async () => {
-    const response = await fetch("/predict", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text }),
-    });
-    const result = await response.json();
-    setAutoTag(result.auto_tag);
-  };
+#   const handlePredict = async () => {
+#     const response = await fetch("/predict", {
+#       method: "POST",
+#       headers: { "Content-Type": "application/json" },
+#       body: JSON.stringify({ text }),
+#     });
+#     const result = await response.json();
+#     setAutoTag(result.auto_tag);
+#   };
 
-  const handleSubmit = async () => {
-    await fetch("/validate", {
-      method: "POST",
-      body: JSON.stringify({ text, auto_tag: autoTag, validated_tag: validatedTag }),
-    });
-  };
+#   const handleSubmit = async () => {
+#     await fetch("/validate", {
+#       method: "POST",
+#       body: JSON.stringify({ text, auto_tag: autoTag, validated_tag: validatedTag }),
+#     });
+#   };
 
-  return (
-    <div>
-      <textarea onChange={(e) => setText(e.target.value)} />
-      <button onClick={handlePredict}>Auto-Tag</button>
-      <div>Auto Tag: {autoTag}</div>
-      <input onChange={(e) => setValidatedTag(e.target.value)} placeholder="Correct tag..." />
-      <button onClick={handleSubmit}>Submit</button>
-    </div>
-  );
-}
+#   return (
+#     <div>
+#       <textarea onChange={(e) => setText(e.target.value)} />
+#       <button onClick={handlePredict}>Auto-Tag</button>
+#       <div>Auto Tag: {autoTag}</div>
+#       <input onChange={(e) => setValidatedTag(e.target.value)} placeholder="Correct tag..." />
+#       <button onClick={handleSubmit}>Submit</button>
+#     </div>
+#   );
+# }
   
 # STEP FOUR Feedback Loop & Retraining
 #PYTHON
@@ -152,7 +158,9 @@ def retrain_model():
     
     # Append to training data and retrain BERT
     updated_data = pd.concat([data, new_data])
-    # (Repeat Step 2's training process with updated_data)
+    # TODO (not implemented): repeat Step Two's training process with
+    # updated_data. In the original file this step was only this placeholder
+    # comment; the retraining itself was never written.
 
 dag = DAG(
     "retrain_pipeline",
@@ -170,14 +178,14 @@ retrain_task = PythonOperator(
 # Containerize the Flask API and React app:
 # DOCKERFILE
 # Flask backend
-FROM python:3.8
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
+# FROM python:3.8
+# COPY requirements.txt .
+# RUN pip install -r requirements.txt
+# COPY . .
+# CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
 
 # React frontend
-FROM node:14
-COPY frontend/ .
-RUN npm install && npm run build
-CMD ["npm", "start"]
+# FROM node:14
+# COPY frontend/ .
+# RUN npm install && npm run build
+# CMD ["npm", "start"]

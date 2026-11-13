@@ -53,3 +53,30 @@ Human-in-the-loop: Manual validation ensures high-quality signals.
 Collaboration: Engineers deploy the pipeline; product teams use accuracy metrics.
 Scalability: Kubernetes handles enterprise-level traffic.
 Closed-Loop System: Retraining with validated data creates a "reinforcement learning" cycle.
+
+---
+
+## Status (added during code repair, Nov 2026)
+
+This file is a **design blueprint**, now repaired so that it at least parses
+as valid Python. It is **not a runnable program**, and was never executed as
+one:
+
+- Step One needs `security_incidents.csv` (columns: text, threat_type,
+  severity), which is not in the repo, plus a downloaded spaCy model
+  (`python -m spacy download en_core_web_sm`).
+- Step Two fine-tunes BERT (`bert-base-uncased`, a ~440 MB download) -- a
+  GPU-scale training job, not something this script can demo end-to-end.
+- Step Three's Flask validation API is real code but depends on the trained
+  Step Two model; its React frontend is kept in the file as comments (it
+  belongs in a separate .jsx file).
+- Step Four's retraining step is a marked TODO -- only a placeholder comment
+  existed. Step Five's Dockerfiles are comments only.
+
+What was fixed in the repair: the missing closing parenthesis in Step Two,
+and the React component and Dockerfiles that were pasted in uncommented and
+made the file a SyntaxError. Nothing was implemented that was not already
+described in the file.
+
+To explore the pieces: `pip install -r requirements.txt` (note: torch,
+transformers and apache-airflow are heavy installs).
