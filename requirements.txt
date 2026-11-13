@@ -1,8 +1,4 @@
 pandas
 scikit-learn
-spacy
-transformers
-torch
-flask
-apache-airflow
-gunicorn
+joblib
+pytest  # tests/ only
